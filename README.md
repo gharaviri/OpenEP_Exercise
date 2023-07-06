@@ -12,7 +12,7 @@ The excersie entails 4 steps:
 **Step 2** - Try to read the dataset provided in this repository using openep-py library in python and present the mean of bi-polar voltages of all 
              electrodes. 
 
-**Step 3** - Use the code (CV.py) in this repository to calculate the conduction velocity map.
+**Step 3** - Calculate the conduction velocity map using the data you read in the previous step and the code (CV.py) in this repository.
 
 **Step 4** - Design a very simple graphical user interface with pyQT library, with a drop-down menu contains voltage and conduction velocity maps                  as choices and visualise the corresponding map.
 
