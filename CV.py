@@ -27,7 +27,7 @@ class CV:
         cv_centers_id = []
         alpha = 5
         
-        ######## Create a triangulation mesh from the recording electrodes
+        ######## Create a triangulated mesh from the recording electrodes
         egmX_point_cloud = pv.PolyData(egmX)
         print('---> Triangulation process')
         surf = egmX_point_cloud.delaunay_3d(alpha=alpha)
@@ -56,7 +56,7 @@ class CV:
             tOB = B[1] - O[1]
             
             theta = np.arccos((np.power(OA,2)+ np.power(OB,2) - np.power(AB,2))/(2 * OA * OB))
-            # check if the conditions are meet to accept the triangle set as a valid one
+            # check if the conditions are met and can be accepted as a valid one
             if (math.degrees(theta) >= min_theta and OA >= min_elec_distance and OA <= max_elec_distance and
                 OB >= min_elec_distance and OB <= max_elec_distance and tOA >= min_lat_difference and tOB >= min_lat_difference):
 
@@ -84,7 +84,7 @@ class CV:
     
     
     def visualization(self, data = '',mesh = '', egmX = ''):
-        ''' This function prepare and visualize calculated data
+        ''' This function prepares and visualizes calculated data maps on the mesh
             data: Calculated data (e.g. conduction velocity or voltage)
             egmX: Recorded Electrode locations (x,y,z). electric --> bipolar_egm --> points
             mesh: Surface mesh provided by electro-anatomical mapping device. you can access it 
