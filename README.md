@@ -9,8 +9,8 @@ The excersie entails 4 steps:
 **Step 1** - Download and install the software package called "OpenEp-py" from the following github repository:
          https://github.com/openep/openep-py. 
          
-**Step 2** - Try to read the dataset provided in this repository using openep-py library in python and present the mean of bi-polar voltages of all     
-         electrodes  
+**Step 2** - Try to read the dataset provided in this repository using openep-py library in python and present the mean of bi-polar voltages of all 
+             electrodes  
 
 **Step 3** - Use the code, CV.py, in this repository to calculate the conduction velocity map.
 
