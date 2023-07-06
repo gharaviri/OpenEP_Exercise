@@ -8,7 +8,6 @@ The excersie entails 4 steps:
 
 **Step 1** - Download and install the software package called "OpenEp-py" from the following github repository:
          https://github.com/openep/openep-py. 
-         You can find a full description of how to do it in the repository.
          
 **Step 2** - Try to read the dataset provided in this repository using openep-py library in python and present the mean of bi-polar voltages of all     
          electrodes  
