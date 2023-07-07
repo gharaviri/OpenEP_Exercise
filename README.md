@@ -14,7 +14,7 @@ The excersie entails 4 steps:
 
 **Step 3** - Calculate the conduction velocity map using the data you read in the previous step and the code (CV.py) in this repository.
 
-**Step 4** - Design a very simple graphical user interface with pyQT library, with a drop-down menu contains voltage and conduction velocity maps                  as choices and visualise the corresponding map.
+**Step 4** - Design a very simple graphical user interface using pyQT library with a drop-down menu. The menu should contain two options, voltage and               conduction velocity. By selecting each option it shoud visualise the corresponding map. 
 
 **Bonus Task:** Some part of the CV.py code is written in a clumsy way, try to improve it. 
 
