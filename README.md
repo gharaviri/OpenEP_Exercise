@@ -15,7 +15,7 @@ The excersie entails 4 steps:
 
 **Step 4** - Design a very simple graphical user interface using pyQT library with a drop-down menu (see slide 4 of the powerpoint template). The              menu should contain two options, voltage and conduction velocity. By selecting each option it should visualise the corresponding                  map. 
 
-Please make sure your code is readty to be executed during the interview. 
+Please make sure your code is ready to be executed during the interview. 
 
 **Bonus Task:** Provide suggestions how the CV.py code could be improved. 
 
